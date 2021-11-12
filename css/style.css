@@ -1,0 +1,320 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+/* COMMON CSS END HERE */
+.main_menu{
+    width: 100%;
+    padding: 10px 0px !important;
+    border-bottom: 1px solid black;
+    background: white;
+}
+.main_menu .logo img{
+    width: 200px;
+}
+.main_menu div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_menu .container ul li{
+    float: left;
+}
+.main_menu .container ul li a{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.main_menu .container ul li:hover a{
+    color: rgb(233, 35, 0);
+}
+/*================ ABOUT USER SECTION ======================*/
+.cover {
+    width: 100%;
+    height: 50vh;
+    background: #1C2B36;
+}
+.cover_img {
+    background: url(../images/explore-image-01.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:50vh;
+}
+.profile_img {
+    position: absolute;
+    width: 10rem;
+    top: 52%;
+}
+.info_icon i {
+    font-size: .9rem;
+}
+p.info_icon {
+    font-size: 1.2rem;
+}
+.shop_img {
+    padding: 0;
+}
+.img_box_icon:hover {
+    background: #ccc0c070;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#about,#likes,#shop,#collection{
+    display: none;
+}
+#likes .pagination {
+    padding-left: 4.7rem;
+}
+/* =================PROFILE CODING HERE===================== */
+a.closeSection {
+    position: absolute;
+    font-size: 2rem;
+    right: 3%;
+    color: black;
+    top: 19%;
+}
+.gig {
+    position: relative;
+}
+.gig:after {
+    content: "";
+    background: rgb(233, 35, 0);
+    width: 6rem;
+    height: 0.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.8rem;
+}
+p.form-tag-button {
+    margin-right: 29%;
+    padding: 1rem;
+}
+.form-switch {
+    padding-left: 64%;
+}
+.pricing_chakebox {
+    display: flex;
+}
+h4.add_new_lenguage {
+    margin-right: 37%;
+}
+h4.description {
+    margin-right: 9%;
+}
+.enrol_p {
+    color: #808080c7;
+}
+textarea {
+    resize: vertical;
+    border: none;
+    outline: none;
+}
+.add_new{
+    margin-left: 56%;
+}
+.add_news {
+    margin-left: 46%;
+}
+#profile_section {
+    display: none;
+    transition: 0.5s;
+}
+input#flexSwitchCheckChecked {
+    float: right;
+}
+.form-switch label {
+    float: left;
+    padding-right: 2.2rem !important;
+    margin-bottom: -0.5rem;
+}
+/* MENU SECTION END HERE */
+/* PROFILE SECTION DESIGN */
+p.form-tag {
+    margin-right: 65%;
+}
+p.form-tag-date {
+    margin-right: 50%;
+}
+.profile {
+    width: 11rem;
+    height: 12rem;
+    margin-top: 4rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.left{
+    position: relative;
+}
+.profile img {
+    width: 100%;
+    height: 100%;
+}
+#file {
+    display: none;
+}
+#upload {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #949494d1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    display: none;
+}
+.btn:focus {
+    box-shadow: none;
+}
+a.btn.btn-outline-success.my-2.about_me {
+    width: 100%;
+    box-shadow: none;
+}
+/*===============GIG SECTION====================*/
+.gig_nav {
+    padding: 0;
+}
+.gig_nav a.nav-link {
+    font-weight: 500;
+}
+select.form-select:focus {
+    box-shadow: none;
+}
+#gigs.form-select{
+    font-size: .4rem;
+}
+.textarea textarea {
+    padding-left: 0.5rem;
+}
+
+#gigs,#paused,#denied,#draft,#modification,#request{
+    display: none;
+}
+/*======CREATE GIGS SECTION=============*/
+span.count {
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
+    background: #bcbcbc;
+}
+.gigs_detials textarea {
+    width: 99%;
+}
+.gig_detials textarea {
+    resize: none;
+    width: 99%;
+}
+p.fw-bold.style_box.py-2 {
+    font-size: 1rem;
+}
+.textarea {
+    padding: 0;
+}
+.textarea textarea {
+    resize: none;
+    width: 15.2rem;
+}
+.input_price {
+    width: 15.3rem;
+    margin-left: -6%;
+}
+select.sel{
+    outline: none;
+    border: none;
+}
+input.price {
+    outline: none;
+    border: none;
+    background: none;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.description textarea:focus{
+    box-shadow: none;
+}
+
+input#imagefile{
+    display: none;
+}
+.img_gellary{
+    border: 1px solid black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 3rem;
+    
+}
+.shop_select{
+    width: 41%;
+}
+.img_gellary:hover{
+    border: 1px dotted green;
+     transition: .5s;
+}
+.option_wraper {
+    display: flex;
+    margin-left: 33%;
+}
+.shop_select {
+    width: 100%;
+    margin-left: 1rem;
+}
+.img_gellary i {
+    font-size: 4rem;
+}
+
+#pricing,#fag,#requir,#gellary,#publish,#gigsCreate{
+    display: none;
+}
+/* FOOTER SECTION START HERE */
+#footer{
+    padding: 20px 0px;
+    border-top: 1px solid black;
+    overflow-x: hidden;
+}
+#footer .footer-title{
+    font-size: 20px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+#footer ul li{
+    padding: 5px 0px;
+    transition: all linear 0.3s;
+}
+#footer ul li:hover{
+    padding-left: 10px;
+}
+.copy-text {
+    text-align: center;
+    padding: 20px 0px 0px;
+    border-top: 1px solid black;
+}
+.copy-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+/* FOOTER SECTION END HERE */
